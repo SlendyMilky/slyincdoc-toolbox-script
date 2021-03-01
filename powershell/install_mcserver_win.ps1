@@ -20,7 +20,7 @@ $javaCommand = get-command java.exe
 $javaPath = $javaCommand.Name
 $jarPath = $minecraftServerPath + $minecraftJar
 
-# download Minecraft server
+# download Minecraft server (Marche pas cette partie)
 md $minecraftServerPath
 $url = "https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar"
 $webclient.DownloadFile($url,$jarPath)
